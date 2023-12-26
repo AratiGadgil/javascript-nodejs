@@ -7,3 +7,7 @@ let temp = "temp"
 console.log(typeof temp)
 temp = null
 console.log(typeof temp)
+temp = undefined
+console.log(typeof temp)
+const sym = Symbol("Arati");
+console.log(sym)
